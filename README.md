@@ -1,6 +1,6 @@
 # babette_on_windows
 
-![](babette_on_windows_logo.jpg)
+![](pics/babette_on_windows_logo_small.jpg)
 
 Branch |Status
 -------|---------
