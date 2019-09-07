@@ -2,6 +2,13 @@
 
 ![](babette_on_windows_logo.jpg)
 
+Branch |Status
+-------|---------
+master |[![Build status](https://ci.appveyor.com/api/projects/status/jv76errjocm5d5yq/branch/master?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/master)
+develop|[![Build status](https://ci.appveyor.com/api/projects/status/jv76errjocm5d5yq/branch/develop?svg=true)](https://ci.appveyor.com/project/richelbilderbeek/babette-on-windows/branch/develop)
+
+
+
 Verify the babette R package works on Windows
 
 ## About the `babette_on_windows` logo
