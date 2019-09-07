@@ -26,11 +26,7 @@ build_script:
   - travis-tool.sh install_github ropensci/beautier
   - travis-tool.sh install_github ropensci/beastier
   - travis-tool.sh install_github ropensci/mauricer
-  - travis-tool.sh install_github jimhester/covr
-  - travis-tool.sh install_github jimhester/lintr
-  - travis-tool.sh install_github MangoTheCat/goodpractice
-  - # travis-tool.sh install magrittr
-  - travis-tool.sh install_deps
+  - travis-tool.sh install_github ropensci/babette
   - R -e "library(beastier); beastier::install_beast2()"
 
 test_script:

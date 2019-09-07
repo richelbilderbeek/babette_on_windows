@@ -1,10 +1,8 @@
-Package: babette
-Title: Control BEAST2
-Version: 2.0.3
+Package: babetteonwindows
+Title: Run Babette On Windows
+Version: 0.1
 Authors@R: c(
-    person("Richèl J.C.", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")),
-    person("Joëlle", "Barido-Sottani", role = "rev", comment = "Joëlle reviewed the package for rOpenSci, see https://github.com/ropensci/onboarding/issues/209"),
-    person("David", "Winter", role = "rev", comment = "David reviewed the package for rOpenSci, see https://github.com/ropensci/onboarding/issues/209"))
+    person("Richèl J.C.", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")))
 Maintainer: Richèl J.C. Bilderbeek <richel@richelbilderbeek.nl>
 Description: 'BEAST2' (<http://www.beast2.org>) is a widely used
     Bayesian phylogenetic tool, that uses DNA/RNA/protein data
@@ -23,25 +21,7 @@ VignetteBuilder: knitr
 URL: https://github.com/ropensci/babette
 BugReports: https://github.com/ropensci/babette/issues
 Imports:
-    beautier (>= 2.2.2),
-    beastier (>= 2.0.17),
-    mauricer,
-    phangorn,
-    stringr,
-    tracerer,
-    testit,
-    xml2
 Suggests:
-    ape,
-    devtools,
-    ggplot2,
-    hunspell,
-    knitr,
-    lintr,
-    nLTT,
-    rmarkdown,
-    spelling,
-    testthat (>= 2.1.0)
 Language: en-US
 Encoding: UTF-8
 SystemRequirements: BEAST2 (http://www.beast2.org/)
