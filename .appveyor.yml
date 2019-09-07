@@ -30,7 +30,7 @@ build_script:
   - R -e "library(beastier); beastier::install_beast2()"
 
 test_script:
-  - Rscript scripts/beastier_self_test.R
+  - Rscript scripts/babette_self_test.R
   - # travis-tool.sh run_tests
 
 on_failure:
