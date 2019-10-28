@@ -33,19 +33,23 @@ library(testthat)
 testit::assert(is_beast2_installed())
 
 # Do a BEAST2 run
-beast2_options <- create_beast2_options(
-  input_filename = get_babette_path("2_4.xml")
-)
+inference_model <- create_test_inference_model()
+beast2_options <- create_beast2_options()
 
-expect_false(file.exists(beast2_options$output_log_filename))
-expect_false(file.exists(beast2_options$output_trees_filenames))
+
+expect_false(file.exists(inference_model$mcmc$tracelog$filename))
+expect_false(file.exists(inference_model$mcmc$treelog$filename))
 expect_false(file.exists(beast2_options$output_state_filename))
 
-output <- run_beast2_from_options(beast2_options)
+output <- bbt_run_from_model(
+  fasta_filename = beautier::get_fasta_filename(),
+  inference_model = inference_model,
+  beast2_options = beast2_options
+)
 
-expect_true(length(output) > 40)
-expect_true(file.exists(beast2_options$output_log_filename))
-expect_true(file.exists(beast2_options$output_trees_filenames))
+expect_true(length(output$output) > 40)
+expect_true(file.exists(inference_model$mcmc$tracelog$filename))
+expect_true(file.exists(inference_model$mcmc$treelog$filename))
 expect_true(file.exists(beast2_options$output_state_filename))
 
 print("============================")
