@@ -22,11 +22,11 @@ environment:
     USE_RTOOLS: true
 
 build_script:
-  - travis-tool.sh install_github ropensci/tracerer
-  - travis-tool.sh install_github ropensci/beautier
-  - travis-tool.sh install_github ropensci/beastier
-  - travis-tool.sh install_github ropensci/mauricer
-  - travis-tool.sh install_github ropensci/babette
+  - #travis-tool.sh install_github ropensci/tracerer
+  - #travis-tool.sh install_github ropensci/beautier
+  - #travis-tool.sh install_github ropensci/beastier
+  - #travis-tool.sh install_github ropensci/mauricer
+  - travis-tool.sh install_github ropensci/babette@cran
   - travis-tool.sh install_r curl
   - travis-tool.sh install_r testthat
   - R -e "library(beastier); beastier::install_beast2()"
