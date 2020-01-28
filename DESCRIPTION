@@ -24,4 +24,4 @@ Imports:
 Suggests:
 Language: en-US
 Encoding: UTF-8
-SystemRequirements: BEAST2 (http://www.beast2.org/)
+SystemRequirements: BEAST2 (https://www.beast2.org/)
