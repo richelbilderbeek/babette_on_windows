@@ -4,13 +4,13 @@ Version: 1.1
 Authors@R: c(
     person("Richèl J.C.", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")))
 Maintainer: Richèl J.C. Bilderbeek <richel@richelbilderbeek.nl>
-Description: 'BEAST2' (<http://www.beast2.org>) is a widely used
+Description: 'BEAST2' (<https://www.beast2.org>) is a widely used
     Bayesian phylogenetic tool, that uses DNA/RNA/protein data
     and many model priors to create a posterior of jointly estimated 
     phylogenies and parameters.
-    'BEAST2' is commonly accompanied by 'BEAUti 2' (<http://www.beast2.org>), 
+    'BEAST2' is commonly accompanied by 'BEAUti 2' (<https://www.beast2.org>), 
     'Tracer' <http://tree.bio.ed.ac.uk/software/tracer/> 
-    and 'DensiTree' (<http://www.beast2.org>).
+    and 'DensiTree' (<https://www.beast2.org>).
     'babette' provides for an alternative workflow of using 
     all these tools separately. This allows doing complex Bayesian
     phylogenetics easily and reproducibly from 'R'. 
@@ -24,4 +24,4 @@ Imports:
 Suggests:
 Language: en-US
 Encoding: UTF-8
-SystemRequirements: BEAST2 (http://www.beast2.org/)
+SystemRequirements: BEAST2 (https://www.beast2.org/)
