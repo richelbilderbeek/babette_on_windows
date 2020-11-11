@@ -1,32 +1,32 @@
 # babette self-testing script
 
-print("=====================")
-print("Self-testing babette")
-print("=====================")
+message("=====================")
+message("Self-testing babette")
+message("=====================")
 
 library(babette)
 
-print("------------")
-print("Session info")
-print("------------")
+message("------------")
+message("Session info")
+message("------------")
 
-print(sessionInfo())
+message(sessionInfo())
 
-print("--------------------------")
-print("babette's package version")
-print("--------------------------")
+message("--------------------------")
+message("babette's package version")
+message("--------------------------")
 
-print(packageVersion("babette"))
+message(packageVersion("babette"))
 
-print("--------------------------")
-print("Show functions in package ")
-print("--------------------------")
+message("--------------------------")
+message("Show functions in package ")
+message("--------------------------")
 
-print(lsf.str("package:babette"))
+message(lsf.str("package:babette"))
 
-print("---------------")
-print("Start self-test")
-print("---------------")
+message("---------------")
+message("Start self-test")
+message("---------------")
 
 library(testthat)
 
@@ -52,6 +52,6 @@ expect_true(file.exists(inference_model$mcmc$tracelog$filename))
 expect_true(file.exists(inference_model$mcmc$treelog$filename))
 expect_true(file.exists(beast2_options$output_state_filename))
 
-print("============================")
-print("Self-test of babette passed")
-print("============================")
+message("============================")
+message("Self-test of babette passed")
+message("============================")

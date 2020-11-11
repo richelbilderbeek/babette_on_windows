@@ -9,7 +9,7 @@ Description: 'BEAST2' (<https://www.beast2.org>) is a widely used
     and many model priors to create a posterior of jointly estimated 
     phylogenies and parameters.
     'BEAST2' is commonly accompanied by 'BEAUti 2' (<https://www.beast2.org>), 
-    'Tracer' <http://tree.bio.ed.ac.uk/software/tracer/> 
+    'Tracer' <https://tree.bio.ed.ac.uk/software/tracer/> 
     and 'DensiTree' (<https://www.beast2.org>).
     'babette' provides for an alternative workflow of using 
     all these tools separately. This allows doing complex Bayesian
