@@ -10,7 +10,7 @@ message("------------")
 message("Session info")
 message("------------")
 
-message(sessionInfo())
+message(paste0(devtools::session_info(), collapse = "\n"))
 
 message("--------------------------")
 message("babette's package version")
